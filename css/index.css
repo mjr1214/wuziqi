@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    /*font-family: "微软雅黑";*/
+}
+body{
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+}
+#can{
+    border:2px solid #a1683b;
+    position: absolute;
+    left:0;
+    top:100px;
+    bottom:0;
+    right:0;
+    margin:auto;
+    border-radius:8px;
+    box-shadow: 0 0 35px #ecdba7 inset;
+}
+.body{
+    position: absolute;
+    display: block;
+    width:800px;
+    height:600px;
+    left:-194px;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto
+}
+.box{
+    width:400px;
+    height:400px;
+    position: absolute;
+    left:330px;
+    top:-140px;
+    bottom:0;
+    right:0;
+    margin:auto;
+}
+#reset,#ai{
+    width:100px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    font-size:18px;
+}
+#reset{
+    background: url("../image/2.jpg") no-repeat center center/200% 200%;
+    float:left;
+    margin-right: 50px;
+    box-shadow:0 0 5px #a1683b inset;
+}
+#ai{
+    background: url("../image/2.jpg") no-repeat center center/200% 200%;
+    float:left;
+    box-shadow:0 0 5px #a1683b inset;
+}
+.promot{
+    position: absolute;
+    width:400px;
+    height:400px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    background:url('../image/2.jpg') no-repeat center center/200% 200%;
+    left:0;
+    top:98px;
+    bottom:0;
+    right:0;
+    margin:auto;
+    z-index: 10;
+    display: none;
+    text-align: right;
+    line-height: 255px;
+    background-clip: border-box;
+}
+.heiqi{
+    width:20px;
+    height: 60px;
+    line-height: 40px;
+    float:right;
+    margin-top:100px;
+    font-size: 20px;
+    margin-right:50px;
+}
+.baiqi{
+    width:20px;
+    height: 60px;
+    line-height: 40px;
+    float:right;
+    margin-top:100px;
+    font-size: 20px;
+    margin-right:50px;
+}
+.qie{
+    width:150px;
+    height:150px;
+    margin-top: 144px;
+    margin-left:97px;
+    background: url("../image/3.gif")no-repeat center center/cover;
+}
+.promot1{
+    position: absolute;
+    width:400px;
+    height:400px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    background:url('../image/2.jpg') no-repeat center center/200% 200%;
+    left:0;
+    top:98px;
+    bottom:0;
+    right:0;
+    margin:auto;
+    z-index: 10;
+    display: none;
+    text-align: right;
+    line-height: 255px;
+    background-clip: border-box;
+}
+.watch{
+    position: fixed;
+    width:300px;
+    height:300px;
+    right:0;
+    top:20px;
+    margin-right: 20px;
+    background: url("../image/4.gif")no-repeat center center/80% 80%;
+}
+.zhezhao{
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    background: url("../image/3.png")no-repeat center center/cover;
+}
+.start{
+    width:160px;
+    height:80px;
+    text-align: center;
+    font-size: 16px;
+    background: url("../image/2.jpg") no-repeat center center/200% 200%;
+    position: absolute;
+    bottom:18px;
+    left:130px;
+    line-height: 80px;
+    font-weight:600;
+    color:#333;
+}
